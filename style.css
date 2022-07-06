@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-video {
+    z-index: -1;
+    position: absolute;
+}
+
+.title-class {
+    position: absolute;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+
+
+}
+
+.shipParameters,
+.shipEviroment,
+.shipSupplies,
+.shipMetrics {
+    padding: 250px 25px 0px 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+input {
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+
+}
+
+::placeholder {
+    font-size: 16px;
+    color: black;
+    font-weight: 800;
+    text-align: center;
+    
+
+}
+
+#outcomeValue, #tempValue {
+    width: 250px;
+}
+
+.shipParameters {
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    width: auto;
+    height: 65vh;
+
+}
+
+.btn-wrapper {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    transform: translateX(-80px);
+}
+
+.button-31 { /*  https://getcssscan.com/css-buttons-examples */
+  background-color: #222;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  
+
+}
+
+.button-31:hover,
+.button-31:focus {
+  opacity: .75;
+}

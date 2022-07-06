@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 1</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="title-class">
+        <h1 id="bigTitle">Welcome on Board of the ITS</h1>
+    </div>
+    <div class="bg-video">
+        <video autoplay muted loop>
+            <source src="assets/bg-vid.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="container">
+        <div class="shipParameters">
+            <div class="list-items">
+                <label for="parameter1"></label>
+                <input type="text" id="percentagesValues" value ="" placeholder="Fuel"><br><br>
+                <label for="parameter2"></label>
+                <input type="text" id="percentagesValues2" value="" placeholder="Throttle"><br><br>
+                <label for="parameter3"></label>
+                <input type="text" id="percentagesValues3" value="" placeholder="Speed"><br><br>
+                <label for="parameter4"></label>
+                <input type="text" id="percentagesValues4" value="" placeholder="Acceleration"><br><br>
+            </div>
+        </div>
+        <div class="shipEviroment">
+            <div class="list-items2">
+                <label for="parameter5"></label>
+                <input type="text" id="gravityValue" value="" placeholder="Gravity"><br><br>
+                <label for="parameter6"></label>
+                <input type="text" id="distanceValue" value="" placeholder="Distance Traveled"><br><br>
+                <label for="parameter7"></label>
+                <input type="text" id="damageValue" value="" placeholder="Damage"><br><br>
+            </div>
+        </div>
+        <div class="shipSupplies">
+            <div class="list-items3">
+                <label for="parameter8"></label>
+                <input type="text" id="foodValue" value="" placeholder="Food"><br><br>
+                <label for="parameter9"></label>
+                <input type="text" id="waterValue" value="" placeholder="Water"><br><br>
+            </div>
+        </div>
+        <div class="shipMetrics">
+            <div class="list-items4">
+                <label for="parameter10"></label>
+                <input type="text" id="tempValue" value="" placeholder="Temperature"><br><br>
+                <label for="parameter11"></label>
+                <input type="text" id="outcomeValue" value="" placeholder="Outcome of trip"><br><br>
+            </div>
+        </div>
+    </div>
+
+    <div class="btn-wrapper">
+        <button class="button-31" role="button" onclick="infoGet()">Get info</button>
+        <button class="button-31" role="button" onclick="showInfo()">Get info</button>
+        <button class="button-31" role="button" onclick="displayInfo()">Get info</button>
+        <button class="button-31" role="button" onclick="presentLast()">Get info</button>
+    </div>
+
+
+    <script src="main.js" type="text/javascript"> </script>
+</body>
+
+</html>
